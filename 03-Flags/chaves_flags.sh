@@ -19,8 +19,10 @@
 #   v1.1 20/06/2024, Mateus:
 #       - Adicionado -m
 #       - Refatorado os if's para o case
-#   v1.2 20/06/2024, MATEUS:
+#   v1.2 20/06/2024, Mateus:
 #       - Adicionados flags para boas práticas
+#   v1.3 20/06/2024, Mateus:
+#       - Adicionado while com shift e teste de variável
 # ------------------------------------------------------- #
 # Testado em:
 #   bash 5.2.15
@@ -37,7 +39,7 @@ MENSAGEM_USO="
         -s - Ordenar a saída
         -m - Deixar em maiusculo
 "
-VERSAO="v.1.0"
+VERSAO="v.1.3"
 CHAVE_ORDENA=0
 CHAVE_MAIUSCULO=0
 
@@ -65,15 +67,30 @@ CHAVE_MAIUSCULO=0
 #     *) echo "$USUARIOS";;
 # esac
 
-case "$1" in
-    -h) echo "$MENSAGEM_USO" && exit 0;;
-    -v) echo "$VERSAO" && exit 0;;
-    -s) CHAVE_ORDENA=1;;
-    -m) CHAVE_MAIUSCULO=1;;
-    *) echo "$USUARIOS";;
-esac
+# case "$1" in
+#     -h) echo "$MENSAGEM_USO" && exit 0;;
+#     -v) echo "$VERSAO" && exit 0;;
+#     -s) CHAVE_ORDENA=1;;
+#     -m) CHAVE_MAIUSCULO=1;;
+#     *) echo "$USUARIOS";;
+# esac
 
-[ $CHAVE_ORDENA ] && echo "$USUARIOS" | sort
-[ $CHAVE_MAIUSCULO ] && echo "${USUARIOS^^}"
+# test -n valida se variável está nula ou não
+while test -n "$1"; do
+    case "$1" in
+        -h) echo "$MENSAGEM_USO" && exit 0;;
+        -v) echo "$VERSAO" && exit 0;;
+        -s) CHAVE_ORDENA=1;;
+        -m) CHAVE_MAIUSCULO=1;;
+        *) echo "Opção inválida, valide o -h" && exit 1;;
+    esac
+    # Função nativa do bash que manipula as variáveis $@
+    shift
+done
+
+[ $CHAVE_ORDENA -eq 1 ] && USUARIOS=$(echo "$USUARIOS" | sort)
+[ $CHAVE_MAIUSCULO -eq 1 ] && USUARIOS=$(echo "${USUARIOS^^}")
+
+echo "$USUARIOS"
 
 # ------------------------------------------------------- #
