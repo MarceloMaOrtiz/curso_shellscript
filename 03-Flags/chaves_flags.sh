@@ -19,6 +19,8 @@
 #   v1.1 20/06/2024, Mateus:
 #       - Adicionado -m
 #       - Refatorado os if's para o case
+#   v1.2 20/06/2024, MATEUS:
+#       - Adicionados flags para boas práticas
 # ------------------------------------------------------- #
 # Testado em:
 #   bash 5.2.15
@@ -36,6 +38,8 @@ MENSAGEM_USO="
         -m - Deixar em maiusculo
 "
 VERSAO="v.1.0"
+CHAVE_ORDENA=0
+CHAVE_MAIUSCULO=0
 
 # -----------------------  Execução  -------------------- #
 
@@ -53,12 +57,23 @@ VERSAO="v.1.0"
 # fi
 
 
+# case "$1" in
+#     -h) echo "$MENSAGEM_USO" && exit 0;;
+#     -v) echo "$VERSAO" && exit 0;;
+#     -s) echo "$USUARIOS" | sort && exit 0;;
+#     -m) echo "${USUARIOS^^}" && exit 0;;
+#     *) echo "$USUARIOS";;
+# esac
+
 case "$1" in
     -h) echo "$MENSAGEM_USO" && exit 0;;
     -v) echo "$VERSAO" && exit 0;;
-    -s) echo "$USUARIOS" | sort && exit 0;;
-    -m) echo "${USUARIOS^^}" && exit 0;;
+    -s) CHAVE_ORDENA=1;;
+    -m) CHAVE_MAIUSCULO=1;;
     *) echo "$USUARIOS";;
 esac
+
+[ $CHAVE_ORDENA ] && echo "$USUARIOS" | sort
+[ $CHAVE_MAIUSCULO ] && echo "${USUARIOS^^}"
 
 # ------------------------------------------------------- #
