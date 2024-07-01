@@ -1,0 +1,60 @@
+Linux 6.10-rc6 Arrives As A "Fairly Calm" Release
+
+Angie 1.6 Web Server Introduces Sticky Sessions
+
+The July 2024 Issue of the PCLinuxOS Magazine
+
+New EndeavourOS Release Ships with KDE Plasma 6.1, Brings Back ARM Support
+
+8 Top Data Analysis Free and Open Source Tools for Big Data
+
+Affordable RISC-V Development Board Built Around 32-bit QingKe CH32V003 Processor
+
+Qualcomm Snapdragon X Elite Powered ASUS Vivobook S15 Laptop Seeing Linux Patches
+
+Webflow vs WordPress – A Comprehensive Comparison
+
+Aspyr Media announce a STAR WARS: Bounty Hunter remaster arriving on August 1
+
+Free Software Pioneer and Activist John Gilmore Is Among Three New Board Members at FSF
+
+30 years later, FreeDOS is still keeping the dream of the command prompt alive
+
+This SBC Puts Raspberry Pi 5 to Shame
+
+Synaptics Astra AI-Native IoT Platform with SL-Series Embedded Processors Now Available For Ordering
+
+openSUSE Unveils Agama 9 Installer with Enhanced UI
+
+Kernel Optimizations, XZ, AMD ZLUDA, NOVA, EPYC 4004 2024 Highlights
+
+Getting Rid of Microsoft Does Not Go Far Enough
+
+FreeDOS, the Open-Source MS-DOS, Is Now 30 Years Old (And Still Going)
+
+Debian 12.6 “Bookworm” Released with 162 Bug Fixes and 84 Security Updates
+
+Best Free and Open Source Alternatives to Microsoft Sound Recorder
+
+Canonical's 'distroless' Linux images are a game-changer for enterprises
+
+Even Though Windows 10 Is Dying, Your Hardware Doesn't Have to Go With It
+
+A favourite coffee-break game Rack and Slay now Steam Deck Verified plus a big update
+
+Celluloid GTK+ Frontend for mpv Video Player Got an Update
+
+KDE Developers Fix More Bugs For Plasma 6.1, Begin More Feature Work On Plasma 6.2
+
+App Doesn’t Run in Ubuntu 24.04? This AppArmor Update May Fix It
+
+How to Install TeamViewer on Ubuntu 24.04, 23.04, 22.04, or 20.04
+
+Milk-V Reveals Technical Specs of Milk-V Jupiter RISC-V Mini-ITX PC
+
+CISA looked at C/C++ projects and found a lot of C/C++ code. Wanna redo any of it in Rust?
+
+Welcome to my AI-hosted dinner party
+
+Essential System Tools: HyFetch - neofetch with LGBTQ+ pride flags
+
