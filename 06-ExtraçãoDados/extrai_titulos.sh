@@ -8,10 +8,6 @@
 # blog, Lxer, colocar em um arquivo e ler mostrando com
 # cores na tela
 #
-# Exemplos:
-#   $ ./chaves_flags.sh -s -m
-#   Neste exemplo o -s colocará em ordem alfabética, e o -m
-#   em maiúsculo
 # ------------------------------------------------------- #
 # Histórico:
 #   v1.0 01/07/2024, Mateus:
@@ -29,16 +25,29 @@
 # Lynx instalado
 [ ! -x "$(which lynx)" ] && sudo apt install lynx -y 
 
+# ------------------------------------------------------- #
 # -----------------------  Variáveis  ------------------- #
 
 PATH_SH=$(cd "$(dirname "${BASH_SOURCE[0]}")"; pwd -P)
 ARQUIVO_TITULOS="$PATH_SH/Files/titulos.txt"
 
+VERDE="\033[32;1m"
+VERMELHO="\033[31;1m"
+
+# ------------------------------------------------------- #
 # -----------------------  Execução  -------------------- #
 
 lynx -source http://lxer.com/ | \
     grep blurb | \
     sed 's/<div.*line">//;s/<\/span.*meta">//;s/$/\n/' \
     > $ARQUIVO_TITULOS
+
+# A cada iteração uma linha do arquivo é colocada na variável
+# item
+while read -r titulo_lxer
+do
+    [ -n "$titulo_lxer" ] && \
+        echo -e "${VERMELHO}Título: ${VERDE}$titulo_lxer"
+done < "$ARQUIVO_TITULOS"
 
 # ------------------------------------------------------- #

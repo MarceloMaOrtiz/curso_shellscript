@@ -1,0 +1,513 @@
+<head>
+  <title>Lista completa com todos Itens, clique sobre ele para ter todos os detalhes.</title>
+  <meta name="description" content="Lista de todos os itens que podem ser usados no dota, basta clicar sobre eles para ver os detalhes.">
+  
+<meta name="verify-v1" content="QOSX00NUiTeCMZT3ChysSKnC181yia6D9QlEQRuphXg=">
+<meta name="keywords" content="dota, portaldota, portal dota, dotaportal, dota portal, dota tutorial, war3, warcraft, warcraft3, blizzard, eurobattle, eurobattle.net, heros, heroes, heróis, itens, skill, ult, dota all stars, dota br, dotabr, dota allstars, battle.net, dota tutorial, como instalar dota, videos de dota, dota dicas, jogo dota, joga, bnet, gateway, editor, ">
+<meta http-equiv="content-language" content="pt-br">
+<link href="css/site.css" type="text/css" rel="stylesheet">
+<link rel="shortcut icon" href="imagens/portadota.ico" type="image/x-icon">
+<script type="text/javascript" async="" id="gauges-tracker" data-site-id="4edf4cf6f5a1f50171000001" src="//secure.gaug.es/track.js"></script><script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script type="text/javascript">
+
+function blockError() {	return true; }
+window.onerror = blockError;
+
+function disableselect(e) { if(!e){ obj = e.srcElement } else { obj = e.target } if((obj.type=="password")||(obj.type=="text")||(obj.type=="textarea")||(obj.type=="select"||(obj.type=="checkbox"))) return true; else return false; }
+function reEnable() { return true; }
+document.onselectstart = new Function("return false");
+if(window.sidebar) { document.onmousedown = disableselect; document.onclick = reEnable; }
+
+</script>
+</head>
+<body topmargin="0" rightmargin="0" leftmargin="0" bottommargin="0">
+<div id="ie5menu" class="men_cont" onmouseover="highlightie5(event)" onmouseout="lowlightie5(event)" onclick="jumptoie5(event)" display:none="" style="visibility: hidden;">
+<div class="menuitems" url="index.php" align="center"><strong>PortalDota</strong></div>
+<hr>
+<div class="menuitems" url="listar_heros.php">Heróis</div>
+<div class="menuitems" url="listar_item.php">Itens</div>
+<div class="menuitems" url="listar_dicionario.php">Dicionário</div>
+<div class="menuitems" url="faq.php">FAQ</div>
+<div class="menuitems" url="download.php">Download</div>
+<div class="menuitems" url="listar_replays.php">Replays</div>
+<div class="menuitems" url="listar_video_aula.php">Vídeo Aula</div>
+<div class="menuitems" url="quem_somos.php">Quem Somos</div>
+<hr>
+<div class="menuitems" url="contato.php">Contato</div>
+</div><script language="JavaScript1.2" src="script/script2.js"></script>
+<table cellspacing="0" cellpadding="0" border="0" align="center">
+  <tbody><tr>
+	<td>
+	
+	
+<table class="leiaute_site" cellspacing="0" cellpadding="0" border="0" align="center">
+		  <tbody><tr>
+		<td colspan="3" height="134" background="imagens/topos/topo_elfos.jpg">&nbsp;
+		</td>
+	  </tr>
+	    <tr>
+	<td class="leiaute_barra_esquerda" valign="top" align="center">
+	<table class="links_menu" width="201" cellspacing="0" cellpadding="0" border="0">
+  <tbody><tr>
+	<td height="46" background="imagens/global/menu_sup.gif">&nbsp;
+		
+	</td>
+  </tr>
+<!--
+    <tr> 
+    <td height="52" align="center" background="imagens/global/menu1.jpg" onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';">
+        <a href="cadastro_hon.php"><font color="#FFFFFF">P</font>ROMOÇÃO</a>
+    </td>
+  </tr>
+  -->
+  <tr> 
+	<td onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" background="imagens/global/menu1.jpg" align="center">
+		<a href="index.php"><font color="#FFFFFF">H</font>OME</a>
+	</td>
+  </tr>
+  <tr>
+	<td onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" background="imagens/global/menu1.jpg" align="center">
+		<a href="listar_noticias.php"><font color="#FFFFFF">N</font>OTÍCIAS</a>
+	</td>
+  </tr>
+<!-- 
+   <tr>
+	<td  background="imagens/global/menu1.jpg" onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" align="center">
+		<a href="http://www.portaldota.com.br/forum/" target="_blank"><font color="#FFFFFF">F</font>ÓRUM</a>
+	</td>
+  </tr>
+   -->
+  <tr>
+	<td onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" background="imagens/global/menu1.jpg" align="center">
+		<a href="listar_heros.php"><font color="#FFFFFF">H</font>ERÓIS</a>
+	</td>
+  </tr>
+  <tr>
+	<td onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" background="imagens/global/menu1.jpg" align="center">
+		<a href="listar_item.php"><font color="#FFFFFF">I</font>TENS</a>
+	</td>
+  </tr>
+  <tr>
+	<td onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" background="imagens/global/menu1.jpg" align="center">
+		<a href="listar_dicionario.php"><font color="#FFFFFF">D</font>ICIONÁRIO</a>
+	</td>
+  </tr><tr>
+	<td onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" background="imagens/global/menu1.jpg" align="center">
+		<a href="listar_depoimentos.php"><font color="#FFFFFF">D</font>EPOIMENTOS</a>
+	</td>
+  </tr>
+  <!--tr>
+	<td  background="imagens/global/menu1.jpg" onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" align="center">
+		<a href="#"><font color="#FFFFFF">T</font>UTORIAIS</a>
+	</td>
+  </tr>
+  <tr>
+	<td  background="imagens/global/menu1.jpg" onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" align="center">
+		<a href="#"><font color="#FFFFFF">R</font>EPLAYS</a>
+	</td>
+  </tr-->
+  <!--
+  <tr>
+	<td  background="imagens/global/menu1.jpg" onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" align="center">
+		<a href="listar_changelog.php"><font color="#FFFFFF">C</font>HANGELOG</a>
+	</td>
+  </tr>  
+  -->
+   <tr>
+	<td onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" background="imagens/global/menu1.jpg" align="center">
+		<a href="faq.php"><font color="#FFFFFF">F</font>AQ</a>
+	</td>
+  </tr>  
+   <tr>
+	<td onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" background="imagens/global/menu1.jpg" align="center">
+		<a href="listar_download.php"><font color="#FFFFFF">D</font>OWNLOAD</a>
+	</td>
+  </tr>
+   <tr>
+	<td onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" background="imagens/global/menu1.jpg" align="center">
+		<a href="listar_replays.php"><font color="#FFFFFF">R</font>EPLAY</a>
+	</td>
+  </tr>
+   <tr>
+	<td onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" background="imagens/global/menu1.jpg" align="center">
+		<a href="listar_videos.php"><font color="#FFFFFF">V</font>ÍDEO</a>
+	</td>
+  </tr>
+   <tr>
+	<td onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" style="background: url(&quot;imagens/global/menu1.jpg&quot;);" height="52" background="imagens/global/menu1.jpg" align="center">
+		<a href="listar_video_aula.php"><font color="#FFFFFF">V</font>ÍDEO AULA</a>
+	</td>
+  </tr>
+  <tr>
+	<td onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" background="imagens/global/menu1.jpg" align="center">
+		<a href="quem_somos.php"><font color="#FFFFFF">Q</font>UEM SOMOS</a>
+	</td>
+  </tr>
+  <tr>
+	<td onmouseover="javascript:this.style.background='url(imagens/global/menu2.jpg)';" onmouseout="javascript:this.style.background='url(imagens/global/menu1.jpg)';" height="52" background="imagens/global/menu1.jpg" align="center">
+		<a href="contato.php"><font color="#FFFFFF">C</font>ONTATO</a>
+	</td>
+  </tr>
+ 
+  <tr>
+	<td height="17" background="imagens/global/menu_bot.gif" align="center">&nbsp;
+		
+	</td>
+  </tr>
+ 
+</tbody></table>
+<img src="imagens/global/menu2.jpg" width="1" height="1">
+<br><br>
+<!--
+<div class="texto_padrao">Ajude a manter o servidor do PortalDotA.<br />Clique no botão abaixo e faça uma doação</div>
+-->
+<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+ <!--
+ <form target="pagseguro" action="https://pagseguro.uol.com.br/checkout/doacao.jhtml" method="post">
+ <input type="hidden" name="email_cobranca" value="thiago@portaldota.com.br">
+ <input type="hidden" name="moeda" value="BRL">
+ <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/doacao/btncontribuicao.jpg" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!">
+ </form>
+ -->
+ <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+<script type="text/javascript"><!--
+google_ad_client = "pub-9359543404424023";
+/* Inicial 160x600 Arranha Céu */
+google_ad_slot = "9188807884";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script><ins class="adsbygoogle adsbygoogle-noablate" style="display: inline-block; width: 160px; height: 600px;" data-ad-client="pub-9359543404424023" data-ad-height="600" data-ad-slot="9188807884" data-ad-width="160" data-adsbygoogle-status="reserved"></ins>
+<br><br>
+<a href="http://www.portaldota2.com.br" target="_blank" title="Acesse o PortalDotA2 tudo sobre Dota 2"><img src="imagens/portaldota2.gif" alt="Acesse o PortalDotA2 tudo sobre Dota 2"></a>
+<br><br>
+<div style="margin-bottom:5px;"><a href="http://www.portalatari.com.br" target="_blank" title="Jogue ATARI online, no Portal ATARI - www.portalatari.com.br"><img src="http://www.portalatari.com.br/imagens/banners/portal_atari.gif" border="0"></a></div>
+<div style="margin-bottom:5px;"><a href="http://www.portalgameboy.com.br" target="_blank" title="Jogue GAME BOY online, no Portal GAME BOY - www.portalgameboy.com.br"><img src="http://www.portalgameboy.com.br/imagens/banners/portal_gameboy.gif"></a></div>
+<div style="margin-bottom:5px;"><a href="http://www.portalmastersystem.com.br" target="_blank" title="Jogue MASTER online, no Portal MASTER - www.portalmastersystem.com.br"><img src="http://www.portalmastersystem.com.br/imagens/banners/portal_master.gif" border="0"></a></div>
+<div style="margin-bottom:5px;"><a href="http://www.portalnes.com.br" target="_blank" title="Jogue NES online, no Portal NES - www.portalnes.com.br"><img src="http://www.portalnes.com.br/imagens/banners/portal_nes.gif" border="0"></a></div>
+
+<div class="texto_rodape">
+<a href="http://www.estrategiasistemas.com.br" target="_blank">Desenvolvido por<br>Estratégia Sistemas</a>
+</div>
+	</td>
+	<td class="leiaute_principal" valign="top">
+	<br>
+	<table cellspacing="0" cellpadding="0">	
+<tbody><tr><td style="padding-bottom:10" width="575"><center><a href="abrir_banner.php?cod=24&amp;link=www.portalfreefire.com.br" target="_blank"><img src="imagens/banners/24_banner.jpg" border="0"></a></center></td></tr><!--  
+    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="568" height="114" id="honbanner34" align="middle">
+    <param name="allowScriptAccess" value="sameDomain" />
+    <param name="allowFullScreen" value="false" />
+    <param name="FlashVars" value="link=abrir_banner.php?cod=9">
+    <param name="movie" value="http://dl.heroesofnewerth.com/adverts/600x120_banner_pt.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#000000" />
+    <embed height="114" width="568" align="middle" pluginspage="http://www.adobe.com/go/getflashplayer" type="application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="sameDomain" name="honbanner34" bgcolor="#000000" quality="high" src="http://dl.heroesofnewerth.com/adverts/600x120_banner_pt.swf" flashvars="link=http://www.heroesofnewerth.com/banners/landing.php?bid=34"/>
+    </object>
+-->    
+</tbody></table>	<div class="borda_cima"><div class="borda_baixo"><div class="borda_esquerda"><div class="borda_direita">
+	<div class="borda_cima_esquerda"><div class="borda_cima_direita"><div class="borda_baixo_esquerda"><div class="borda_baixo_direita">
+<style type="text/css">
+#DivDetalhes
+	{
+	text-align:center;
+	color:#000000;
+	height: 45px;
+	position: absolute;
+	width: 180px;
+	border: 1px solid black;
+	padding: 2px;
+	background-color: lightyellow;
+	visibility: hidden;
+	z-index: 100;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);
+	}
+</style>
+<div id="DivDetalhes" style="left: -1000px; top: 4290px; visibility: hidden;"><br><strong>Plate Mail</strong><br><br></div>
+<script type="text/javascript" src="script/detalhes.js"></script>
+<script type="text/javascript" src="script/mootools-1.2.4-core.js"></script>
+<script type="text/javascript" src="script/mootools-1.2-more.js"></script>
+
+<script>
+function seta_estado(idObj, estado)
+{
+	document.getElementById(idObj).style.display=estado;
+}
+	
+function inverte_estado(idObj)
+{
+	if (document.getElementById("recipie"+idObj).style.display=="none")
+	{
+        if (document.getElementById("visivel"+idObj).value=="0")
+        {
+            
+            document.getElementById("visivel"+idObj).value="1";
+            
+            var var_url;
+            var_url = 'cod=' + idObj;
+              new Request.HTML({
+              url: 'listar_item_ajax.php',
+              method: 'post',
+              update: $('conteudo'+idObj)
+            }).send(var_url);            
+            
+        }
+		document.getElementById("recipie"+idObj).style.display="block";
+	}
+	else if (document.getElementById("recipie"+idObj).style.display=="block")
+	{
+	
+		document.getElementById("recipie"+idObj).style.display="none";
+	}
+}
+</script>
+<br><br>
+<div class="titulo_pagina">Itens</div>
+<center>
+Escolha recipie abaixo, para clicar no item.
+</center>
+<br><br>
+<table class="texto_padrao" width="540" border="0" align="center">
+  <tbody><tr>
+	<td style="padding: 2px;" colspan="2" valign="top" align="right">
+	<!--
+	<a href="javascript:mostrar_todos();">Mostrar Todos</a> - 
+	<a href="javascript:esconder_todos();">Esconder Todos</a> -
+	-->
+	<a href="itens_lista.php">Listar Todos</a>
+	<br><br>
+	</td>
+  </tr>
+  
+  <form name="frmBuscaItem" method="post" action="itens_buscar.php"></form>
+  <tr>
+	<td style="padding: 2px;" colspan="2" align="center">
+	Se você não sabe qual recipie fica o Item, digite uma parte do nome dele.
+	</td>
+  </tr>
+  <tr>
+	<td style="padding: 2px;" colspan="2" align="center">
+	Digite: <input type="text" name="txtBuscarItem" id="txtBuscarItem" value="" class="formularios">
+	<input type="submit" name="btEnviar" value="Buscar Item" class="botao">
+	</td>
+  </tr>
+  
+    
+  <tr>
+	<td style="padding: 2px;" valign="top" align="center">
+	<br>
+	<table class="texto_padrao" width="260" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td align="center"><br>Cache of the Quel´thelan /Gateway of Demonic Artifacts<br><a href="javascript:inverte_estado(&quot;17&quot;);"><img src="imagens/vendedor/17_vend_pna.gif" style="border: 4px #FF0000 solid;" width="100" border="0"></a></td></tr><input type="hidden" name="visivel17" id="visivel17" value="1"><tr id="recipie17" style="display: block;"><td id="conteudo17">
+<table class="verdana11" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td><a href="itens_detalhes.php?cod=42" onmouseover="Mostrar(&quot;<br><strong>Gloves of Haste</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/42_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=43" onmouseover="Mostrar(&quot;<br><strong>Mask of Death</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/43_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=44" onmouseover="Mostrar(&quot;<br><strong>Ring of Regeneration</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/44_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=45" onmouseover="Mostrar(&quot;<br><strong>Kelens dagger</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/45_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=46" onmouseover="Mostrar(&quot;<br><strong>Sobi Mask</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/46_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=47" onmouseover="Mostrar(&quot;<br><strong>Boots of Speed</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/47_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=48" onmouseover="Mostrar(&quot;<br><strong>Gem of true Sight</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/48_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=50" onmouseover="Mostrar(&quot;<br><strong>Planeswalkers Cloak</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/50_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=120" onmouseover="Mostrar(&quot;<br><strong>Magic stick</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/120_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=127" onmouseover="Mostrar(&quot;<br><strong>Talisman Of Evasion</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/127_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=128" onmouseover="Mostrar(&quot;<br><strong>Ghost Scepter</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/128_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=146" onmouseover="Mostrar(&quot;<br><strong>Shadow Amulet</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/146_item_pna.jpg" width="55" border="0"></a></td> </tr></tbody></table></td></tr></tbody></table><table class="texto_padrao" width="260" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td align="center"><br>Ancient of Wonders/Graveyard<br><a href="javascript:inverte_estado(&quot;18&quot;);"><img src="imagens/vendedor/18_vend_pna.gif" style="border: 4px #FF0000 solid;" width="100" border="0"></a></td></tr><input type="hidden" name="visivel18" id="visivel18" value="1"><tr id="recipie18" style="display: block;"><td id="conteudo18">
+<table class="verdana11" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td><a href="itens_detalhes.php?cod=34" onmouseover="Mostrar(&quot;<br><strong>Clarity Potion</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/34_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=35" onmouseover="Mostrar(&quot;<br><strong>Healing Salve</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/35_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=121" onmouseover="Mostrar(&quot;<br><strong>Dust of  Appearance</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/121_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=37" onmouseover="Mostrar(&quot;<br><strong>Empty Bottle.</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/37_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=38" onmouseover="Mostrar(&quot;<br><strong>Observer Wards</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/38_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=39" onmouseover="Mostrar(&quot;<br><strong>Sentry Wards</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/39_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=36" onmouseover="Mostrar(&quot;<br><strong>Ancient Tango of Essifation</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/36_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=41" onmouseover="Mostrar(&quot;<br><strong>Animal Courier</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/41_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=40" onmouseover="Mostrar(&quot;<br><strong>Scroll of Town Portal</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/40_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=139" onmouseover="Mostrar(&quot;<br><strong>Smoke of Deceit</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/139_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=111" onmouseover="Mostrar(&quot;<br><strong>Flying Courier</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/111_item_pna.jpg" width="55" border="0"></a></td> </tr></tbody></table></td></tr></tbody></table><table class="texto_padrao" width="260" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td align="center"><br>Leragas The Vile (Secret Shop)<br><a href="javascript:inverte_estado(&quot;19&quot;);"><img src="imagens/vendedor/19_vend_pna.gif" style="border: 4px #FF0000 solid;" width="100" border="0"></a></td></tr><input type="hidden" name="visivel19" id="visivel19" value="1"><tr id="recipie19" style="display: block;"><td id="conteudo19">
+<table class="verdana11" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td><a href="itens_detalhes.php?cod=51" onmouseover="Mostrar(&quot;<br><strong>Demon Edge</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/51_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=52" onmouseover="Mostrar(&quot;<br><strong>Eaglehorn</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/52_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=53" onmouseover="Mostrar(&quot;<br><strong>Messerschmidts Reaver</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/53_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=54" onmouseover="Mostrar(&quot;<br><strong>Sacred Relic</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/54_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=55" onmouseover="Mostrar(&quot;<br><strong>Hyperstone</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/55_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=56" onmouseover="Mostrar(&quot;<br><strong>Ring of Health</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/56_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=57" onmouseover="Mostrar(&quot;<br><strong>Void Stone</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/57_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=58" onmouseover="Mostrar(&quot;<br><strong>Mystic Staff</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/58_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=59" onmouseover="Mostrar(&quot;<br><strong>Energy Booster</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/59_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=60" onmouseover="Mostrar(&quot;<br><strong>Point Boosters</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/60_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=61" onmouseover="Mostrar(&quot;<br><strong>Vitality Boosters</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/61_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=135" onmouseover="Mostrar(&quot;<br><strong>Orb of Venom</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/135_item_pna.jpg" width="55" border="0"></a></td> </tr></tbody></table></td></tr></tbody></table><table class="texto_padrao" width="260" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td align="center"><br>Sena The Accessorizer<br><a href="javascript:inverte_estado(&quot;20&quot;);"><img src="imagens/vendedor/20_vend_pna.gif" style="border: 4px #FF0000 solid;" width="100" border="0"></a></td></tr><input type="hidden" name="visivel20" id="visivel20" value="1"><tr id="recipie20" style="display: block;"><td id="conteudo20">
+<table class="verdana11" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td><a href="itens_detalhes.php?cod=23" onmouseover="Mostrar(&quot;<br><strong>Gauntlets of strengt</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/23_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=24" onmouseover="Mostrar(&quot;<br><strong>Slippers of Agility</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/24_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=25" onmouseover="Mostrar(&quot;<br><strong>Mantle of Intelligen</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/25_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=26" onmouseover="Mostrar(&quot;<br><strong>Ironwood Branch</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/26_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=27" onmouseover="Mostrar(&quot;<br><strong>Belt of Giant Streng</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/27_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=28" onmouseover="Mostrar(&quot;<br><strong>Boots of Elvenskin</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/28_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=29" onmouseover="Mostrar(&quot;<br><strong>Robe of the Magi</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/29_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=30" onmouseover="Mostrar(&quot;<br><strong>Circlet of Nobility</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/30_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=31" onmouseover="Mostrar(&quot;<br><strong>Ogre Axe</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/31_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=32" onmouseover="Mostrar(&quot;<br><strong>Blade of Alacrity</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/32_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=33" onmouseover="Mostrar(&quot;<br><strong>Staff of Wizardry</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/33_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=49" onmouseover="Mostrar(&quot;<br><strong>Ultimate Orb</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/49_item_pna.jpg" width="55" border="0"></a></td> </tr></tbody></table></td></tr></tbody></table><table class="texto_padrao" width="260" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td align="center"><br>Protectorate<br><a href="javascript:inverte_estado(&quot;22&quot;);"><img src="imagens/vendedor/22_vend_pna.jpg" style="border: 4px #FF0000 solid;" width="100" border="0"></a></td></tr><input type="hidden" name="visivel22" id="visivel22" value="1"><tr id="recipie22" style="display: block;"><td id="conteudo22">
+<table class="verdana11" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td><a href="itens_detalhes.php?cod=113" onmouseover="Mostrar(&quot;<br><strong>Assault Cuirass</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/113_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=101" onmouseover="Mostrar(&quot;<br><strong>Heart of Tarrasque</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/101_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=91" onmouseover="Mostrar(&quot;<br><strong>Black King Bar</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/91_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=130" onmouseover="Mostrar(&quot;<br><strong>Aegis of the Immortal</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/130_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=117" onmouseover="Mostrar(&quot;<br><strong>Shivas Guard</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/117_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=114" onmouseover="Mostrar(&quot;<br><strong>Blood Stone</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/114_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=96" onmouseover="Mostrar(&quot;<br><strong>Linkens Sphere</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/96_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=108" onmouseover="Mostrar(&quot;<br><strong>Vanguard</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/108_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=79" onmouseover="Mostrar(&quot;<br><strong>Blade Mail</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/79_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=85" onmouseover="Mostrar(&quot;<br><strong>Soul Booster</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/85_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=115" onmouseover="Mostrar(&quot;<br><strong>Hood of Defiance</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/115_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=92" onmouseover="Mostrar(&quot;<br><strong>Manta Style</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/92_item_pna.jpg" width="55" border="0"></a></td> </tr></tbody></table></td></tr></tbody></table><table class="texto_padrao" width="260" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td align="center"><br>Arcane Sanctum<br><a href="javascript:inverte_estado(&quot;23&quot;);"><img src="imagens/vendedor/23_vend_pna.jpg" style="border: 4px #FF0000 solid;" width="100" border="0"></a></td></tr><input type="hidden" name="visivel23" id="visivel23" value="1"><tr id="recipie23" style="display: block;"><td id="conteudo23">
+<table class="verdana11" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td><a href="itens_detalhes.php?cod=107" onmouseover="Mostrar(&quot;<br><strong>Guinsoos Scythe of Vyse</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/107_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=118" onmouseover="Mostrar(&quot;<br><strong>Orchid Malevolence</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/118_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=84" onmouseover="Mostrar(&quot;<br><strong>Euls  Scepter of Divinity</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/84_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=123" onmouseover="Mostrar(&quot;<br><strong>Force Staff</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/123_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=94" onmouseover="Mostrar(&quot;<br><strong>Dagon</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/94_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=95" onmouseover="Mostrar(&quot;<br><strong>Necronomicon</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/95_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=105" onmouseover="Mostrar(&quot;<br><strong>Aghanims Scepter</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/105_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=106" onmouseover="Mostrar(&quot;<br><strong>Refresher Orb</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/106_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=140" onmouseover="Mostrar(&quot;<br><strong>Veil of Discord</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/140_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=141" onmouseover="Mostrar(&quot;<br><strong>Rod of Atos</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/141_item_pna.jpg" width="55" border="0"></a></td> </tr></tbody></table></td></tr></tbody></table><table class="texto_padrao" width="260" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td align="center"><br>Supportive Vestments<br><a href="javascript:inverte_estado(&quot;24&quot;);"><img src="imagens/vendedor/24_vend_pna.gif" style="border: 4px #FF0000 solid;" width="100" border="0"></a></td></tr><input type="hidden" name="visivel24" id="visivel24" value="1"><tr id="recipie24" style="display: block;"><td id="conteudo24">
+<table class="verdana11" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td><a href="itens_detalhes.php?cod=86" onmouseover="Mostrar(&quot;<br><strong>Mekansm</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/86_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=112" onmouseover="Mostrar(&quot;<br><strong>Vladmirs Offering</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/112_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=136" onmouseover="Mostrar(&quot;<br><strong>Arcane Boots</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/136_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=143" onmouseover="Mostrar(&quot;<br><strong>Ring of Aquila</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/143_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=65" onmouseover="Mostrar(&quot;<br><strong>Nathrezim Buckler</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/65_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=66" onmouseover="Mostrar(&quot;<br><strong>Ring of Basilius</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/66_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=124" onmouseover="Mostrar(&quot;<br><strong>Khadgars Pipe Of Insight</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/124_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=132" onmouseover="Mostrar(&quot;<br><strong>Urn of Shadows</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/132_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=64" onmouseover="Mostrar(&quot;<br><strong>Headdres of Rejuvenation</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/64_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=138" onmouseover="Mostrar(&quot;<br><strong>Medallion of Courage</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/138_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=137" onmouseover="Mostrar(&quot;<br><strong>Ancient Janggo of Endurance</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/137_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=144" onmouseover="Mostrar(&quot;<br><strong>Tranquil Boots</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/144_item_pna.jpg" width="55" border="0"></a></td> </tr></tbody></table></td></tr></tbody></table><table class="texto_padrao" width="260" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td align="center"><br>Ancient Weaponary<br><a href="javascript:inverte_estado(&quot;25&quot;);"><img src="imagens/vendedor/25_vend_pna.jpg" style="border: 4px #FF0000 solid;" width="100" border="0"></a></td></tr><input type="hidden" name="visivel25" id="visivel25" value="1"><tr id="recipie25" style="display: block;"><td id="conteudo25">
+<table class="verdana11" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td><a href="itens_detalhes.php?cod=97" onmouseover="Mostrar(&quot;<br><strong>Divine Rapier</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/97_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=99" onmouseover="Mostrar(&quot;<br><strong>Monkey King Bar</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/99_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=100" onmouseover="Mostrar(&quot;<br><strong>Radiance</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/100_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=104" onmouseover="Mostrar(&quot;<br><strong>The Butterfly</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/104_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=98" onmouseover="Mostrar(&quot;<br><strong>Buriza-do Kyanon</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/98_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=76" onmouseover="Mostrar(&quot;<br><strong>Cranium Basher</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/76_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=89" onmouseover="Mostrar(&quot;<br><strong>Battle Fury</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/89_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=145" onmouseover="Mostrar(&quot;<br><strong>Abyssal Blade</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/145_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=90" onmouseover="Mostrar(&quot;<br><strong>Crystalys</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/90_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=116" onmouseover="Mostrar(&quot;<br><strong>Armlet of Mordiggian</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/116_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=93" onmouseover="Mostrar(&quot;<br><strong>Lothars Edge</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/93_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=133" onmouseover="Mostrar(&quot;<br><strong>Ethereal Blade</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/133_item_pna.jpg" width="55" border="0"></a></td> </tr></tbody></table></td></tr></tbody></table><table class="texto_padrao" width="260" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td align="center"><br>Enchanted Artifacts<br><a href="javascript:inverte_estado(&quot;26&quot;);"><img src="imagens/vendedor/26_vend_pna.gif" style="border: 4px #FF0000 solid;" width="100" border="0"></a></td></tr><input type="hidden" name="visivel26" id="visivel26" value="1"><tr id="recipie26" style="display: block;"><td id="conteudo26">
+<table class="verdana11" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td><a href="itens_detalhes.php?cod=87" onmouseover="Mostrar(&quot;<br><strong>Sange and Yasha</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/87_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=102" onmouseover="Mostrar(&quot;<br><strong>Satanic</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/102_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=110" onmouseover="Mostrar(&quot;<br><strong>Mjollnir</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/110_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=103" onmouseover="Mostrar(&quot;<br><strong>Eye of Skady</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/103_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=75" onmouseover="Mostrar(&quot;<br><strong>Sange</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/75_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=82" onmouseover="Mostrar(&quot;<br><strong>Helm of the Dominator</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/82_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=80" onmouseover="Mostrar(&quot;<br><strong>Maelstrom</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/80_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=88" onmouseover="Mostrar(&quot;<br><strong>Stygian Desolator</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/88_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=74" onmouseover="Mostrar(&quot;<br><strong>Yasha</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/74_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=83" onmouseover="Mostrar(&quot;<br><strong>Mask of Madness</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/83_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=81" onmouseover="Mostrar(&quot;<br><strong>Diffusal Blade</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/81_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=142" onmouseover="Mostrar(&quot;<br><strong>Heavens Halberd</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/142_item_pna.jpg" width="55" border="0"></a></td> </tr></tbody></table></td></tr></tbody></table><table class="texto_padrao" width="260" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td align="center"><br>Gateway Relics<br><a href="javascript:inverte_estado(&quot;27&quot;);"><img src="imagens/vendedor/27_vend_pna.jpg" style="border: 4px #FF0000 solid;" width="100" border="0"></a></td></tr><input type="hidden" name="visivel27" id="visivel27" value="1"><tr id="recipie27" style="display: block;"><td id="conteudo27">
+<table class="verdana11" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td><a href="itens_detalhes.php?cod=67" onmouseover="Mostrar(&quot;<br><strong>Boots of Travel</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/67_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=122" onmouseover="Mostrar(&quot;<br><strong>Phase Boots</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/122_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=68" onmouseover="Mostrar(&quot;<br><strong>Power Treads</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/68_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=134" onmouseover="Mostrar(&quot;<br><strong>Soul Ring</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/134_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=69" onmouseover="Mostrar(&quot;<br><strong>Hand of Midas</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/69_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=70" onmouseover="Mostrar(&quot;<br><strong>Oblivion Staff</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/70_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=62" onmouseover="Mostrar(&quot;<br><strong>Perseverance</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/62_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=131" onmouseover="Mostrar(&quot;<br><strong>Poor Mans Shield</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/131_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=71" onmouseover="Mostrar(&quot;<br><strong>Bracer</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/71_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=72" onmouseover="Mostrar(&quot;<br><strong>Wraith Band</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/72_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=73" onmouseover="Mostrar(&quot;<br><strong>Null Talisman</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/73_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=126" onmouseover="Mostrar(&quot;<br><strong>Magic Wand</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/126_item_pna.jpg" width="55" border="0"></a></td> </tr></tbody></table></td></tr></tbody></table><table class="texto_padrao" width="260" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td align="center"><br>Weapons Dealer<br><a href="javascript:inverte_estado(&quot;28&quot;);"><img src="imagens/vendedor/28_vend_pna.gif" style="border: 4px #FF0000 solid;" width="100" border="0"></a></td></tr><input type="hidden" name="visivel28" id="visivel28" value="1"><tr id="recipie28" style="display: block;"><td id="conteudo28">
+<table class="verdana11" cellspacing="0" cellpadding="3" border="0"><tbody><tr><td><a href="itens_detalhes.php?cod=12" onmouseover="Mostrar(&quot;<br><strong>Blades of Attack</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/12_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=13" onmouseover="Mostrar(&quot;<br><strong>Broadsword</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/13_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=14" onmouseover="Mostrar(&quot;<br><strong>Quarterstaff</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/14_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=15" onmouseover="Mostrar(&quot;<br><strong>Claymore</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/15_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=16" onmouseover="Mostrar(&quot;<br><strong>Ring of protection</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/16_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=17" onmouseover="Mostrar(&quot;<br><strong>Stout shield</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/17_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=18" onmouseover="Mostrar(&quot;<br><strong>Javelin</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/18_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=19" onmouseover="Mostrar(&quot;<br><strong>Mithril Hammer</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/19_item_pna.jpg" width="55" border="0"></a></td></tr><tr><td><a href="itens_detalhes.php?cod=20" onmouseover="Mostrar(&quot;<br><strong>Chainmail</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/20_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=21" onmouseover="Mostrar(&quot;<br><strong>Helm of Iron Will</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/21_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=22" onmouseover="Mostrar(&quot;<br><strong>Plate Mail</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/22_item_pna.jpg" width="55" border="0"></a></td><td><a href="itens_detalhes.php?cod=129" onmouseover="Mostrar(&quot;<br><strong>Quelling Blade</strong><br><br>&quot;)" onmouseout="Esconder()"><img src="imagens/item/129_item_pna.jpg" width="55" border="0"></a></td> </tr></tbody></table></td></tr></tbody></table>	</td>
+	<td style="padding: 2px;" valign="top" align="center">
+	<br>
+		</td>
+  </tr>
+</tbody></table><br><br><br>
+
+<div style="text-align: center"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-9359543404424023";
+/* PD - Listar Itens */
+google_ad_slot = "1650703261";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><ins class="adsbygoogle adsbygoogle-noablate" style="display: inline-block; width: 300px; height: 250px;" data-ad-client="ca-pub-9359543404424023" data-ad-height="250" data-ad-slot="1650703261" data-ad-width="300" data-adsbygoogle-status="reserved"></ins>
+<br><br></div>	</div></div></div></div></div></div></div></div>
+	</td>
+  </tr>
+  <tr>
+	<td colspan="3" class="texto_rodape">
+	<br>
+	<div class="borda_cima"><div class="borda_baixo"><div class="borda_esquerda"><div class="borda_direita"><div class="borda_cima_esquerda">
+	<div class="borda_cima_direita"><div class="borda_baixo_esquerda"><div class="borda_baixo_direita">
+	<br>
+	<a href="index.php">Home</a> ::
+	<a href="listar_heros.php">Heros</a> :: 
+	<a href="listar_item.php">Itens</a> :: 
+	<a href="listar_dicionario.php">Dicionário</a> :: 
+	<a href="faq.php">FAQ</a> :: 
+	<a href="quem_somos.php">Quem Somos</a> :: 
+	<a href="download.php">Download</a> :: 
+	<a href="contato.php">Contato</a> 
+	<br><br>
+	
+	</div></div></div></div></div></div></div></div>
+	</td>
+  </tr>
+</tbody></table>
+	
+	</td><td class="leiaute_barra_direita" style="padding-left:15; padding-top:5" valign="top" align="center">
+	Publicidade
+	<!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+	<!--
+   <form target="pagseguro" action="https://pagseguro.uol.com.br/checkout/doacao.jhtml" method="post">
+   <input type="hidden" name="email_cobranca" value="thiago@portaldota.com.br">
+   <input type="hidden" name="moeda" value="BRL">
+   <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/doacao/btncontribuicao.jpg" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!">
+   </form>
+   -->
+   <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+	<table cellspacing="0" cellpadding="0">	
+
+</table><br><br><table cellspacing="0" cellpadding="0" border="0">	
+<tbody><tr><td style="padding-bottom:10"><a href="abrir_banner.php?cod=4&amp;link=www.portaldota.com.br" target="_blank"><img src="imagens/banners/4_banner.jpg" border="0"></a></td></tr><!-- 
+    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="120" height="600" id="honbanner34" align="middle">
+    <param name="allowScriptAccess" value="sameDomain" />
+    <param name="allowFullScreen" value="false" />
+    <param name="FlashVars" value="link=abrir_banner.php?cod=7">
+    <param name="movie" value="http://dl.heroesofnewerth.com/adverts/120x600_skyscraper_pt.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#000000" />
+    <embed height="600" width="120" align="middle" pluginspage="http://www.adobe.com/go/getflashplayer" type="application/x-shockwave-flash" allowfullscreen="false" allowscriptaccess="sameDomain" name="honbanner34" bgcolor="#000000" quality="high" src="http://dl.heroesofnewerth.com/adverts/120x600_skyscraper_pt.swf" flashvars="link=http://www.heroesofnewerth.com/banners/landing.php?bid=34"/>
+    </object>
+-->    
+</tbody></table>	<br>
+	<br>
+<a href="http://www.portaldota2.com.br" target="_blank" title="Acesse o PortalDotA2 tudo sobre Dota 2"><img src="imagens/portaldota2.gif" alt="Acesse o PortalDotA2 tudo sobre Dota 2"></a>
+<br><br><br>
+
+<spam style="text_align: right;">Depoimentos</spam>
+<br><br>
+<table style="border-top: 1px dashed #666666;" width="150" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td align="center"><font size="2" color="#FF9900"><b>Jose Mateus</b></font><br><font size="1" color="#999999">(Zé)</font></td></tr><tr><td class="texto_padrao" style="text-align: justify"><i>"Fala galera!!
+Eu comecei ajogar dota faz pouco tempo e gostaria de aprender mais sobre o jogo..
+e ..."</i><br><div style="text-align:right"><a href="listar_depoimentos.php?cod=224">[ Leia Mais ]</a></div></td></tr></tbody></table><br><br><table style="border-top: 1px dashed #666666;" width="150" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td align="center"><font size="2" color="#FF9900"><b>Rafael</b></font><br><font size="1" color="#999999">(Recruta)</font></td></tr><tr><td class="texto_padrao" style="text-align: justify"><i>"muito bom o site, me explico muito sobre itens(tava precisando) parabens..."</i><br><div style="text-align:right"><a href="listar_depoimentos.php?cod=1536">[ Leia Mais ]</a></div></td></tr></tbody></table><br><br><table style="border-top: 1px dashed #666666;" width="150" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td align="center"><font size="2" color="#FF9900"><b>Cristiano</b></font><br><font size="1" color="#999999">(vakuo)</font></td></tr><tr><td class="texto_padrao" style="text-align: justify"><i>"Muito bom os updates do site.
+Só queria avisar que todos os ultimates estão com a frase: "Melhora c..."</i><br><div style="text-align:right"><a href="listar_depoimentos.php?cod=743">[ Leia Mais ]</a></div></td></tr></tbody></table><br><br>	<br>
+	Parceiros
+	<table cellspacing="0" cellpadding="0">	
+
+</table>	<br><br>
+	<script type="text/javascript"><!--
+google_ad_client = "ca-pub-9359543404424023";
+/* PD - Arranha Ceu - Lado Direito */
+google_ad_slot = "5324974114";
+google_ad_width = 160;
+google_ad_height = 600;
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script><ins class="adsbygoogle adsbygoogle-noablate" style="display: inline-block; width: 160px; height: 600px;" data-ad-client="ca-pub-9359543404424023" data-ad-height="600" data-ad-slot="5324974114" data-ad-width="160" data-adsbygoogle-status="reserved"></ins>	</td>
+	
+	  </tr>
+</tbody></table>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6886523-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<script type="text/javascript">
+  var _gauges = _gauges || [];
+  (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id    = 'gauges-tracker';
+    t.setAttribute('data-site-id', '4edf4cf6f5a1f50171000001');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+  })();
+</script>
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.img_ajuste
+{
+  width: 100%;
+}
+</style>
+
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">×</span>
+    <p><img src="imagens/banner_podcast.jpg" class="img_ajuste"></p>
+  </div>
+</div>
+
+
+
+
+<script>
+  var modal = document.getElementById("myModal");
+
+
+  var span = document.getElementsByClassName("close")[0];
+
+  //var btn = document.getElementById("myBtn");
+  // btn.onclick = function() {
+  //   modal.style.display = "block";
+  // }
+
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+
+  //document.addEventListener("DOMContentLoaded", function(event) {
+  //  modal.style.display = "block";
+  //});
+
+</script>
+
+
+
+
+</body>
