@@ -1,0 +1,4 @@
+# 0 desativado, 1 ativado
+CHAVE_NOMES=0
+CHAVE_TYPES=0
+CHAVE_STATUS=1
