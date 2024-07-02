@@ -1,0 +1,7 @@
+# POKEMONS CAPTURADOS POR PLAYER
+
+1,bahamut,12
+2,bahamut,26
+3,sminkore,3
+4,sminkore,142
+5,sminkore,87

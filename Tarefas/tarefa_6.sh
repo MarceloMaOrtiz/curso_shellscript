@@ -20,7 +20,7 @@
 #       - Adicionado -d, possibilitando debugar em dois
 #       níveis
 #       - Adicionado função para printar a pokedex
-#   v2.2 21/06/2024, Autor da Mudança: Marcelo
+#   v1.2 21/06/2024, Autor da Mudança: Marcelo
 #       - Adicionando cores
 # ------------------------------------------------------- #
 # Testado em:
@@ -48,7 +48,7 @@ MENSAGEM_USO="
             1 - Mostra a info antes da alteração
             2 - Mostra a info antes e depois da alteração
 "
-VERSAO="v.1.0"
+VERSAO="v.1.2"
 CHAVE_FILTRO=0
 FILTER=""
 CHAVE_NOMES=0

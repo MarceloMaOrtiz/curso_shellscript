@@ -54,7 +54,7 @@ MENSAGEM_USO="
             1 - Mostra a info antes da alteração
             2 - Mostra a info antes e depois da alteração
 "
-VERSAO="v.1.0"
+VERSAO="v.1.3"
 CHAVE_FILTRO=0
 FILTER=""
 CHAVE_NOMES=0
