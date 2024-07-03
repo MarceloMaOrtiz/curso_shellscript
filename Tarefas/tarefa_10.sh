@@ -18,6 +18,8 @@
 #
 #   v1.0 02/07/2024, Autor da Mudança: Marcelo
 #       - ListaPokemonsDoMestre, PokemonCapturado
+#   v1.1 03/07/2024, Autor da Mudança: Marcelo
+#       - RemoverPokemonDoMestre
 #
 # ------------------------------------------------------- #
 # Testado em:
@@ -33,6 +35,8 @@ PATH_POKEDEX="$PATH_SH/Files/pokedex.txt"
 POKEDEX="$(cat $PATH_POKEDEX)" 
 POKEDEX_HEAD="$(sed 1q <<< "$POKEDEX")"
 POKEDEX_BODY="$(tail -n +2 <<< "$POKEDEX")"
+
+MAIOR_ID=
 
 SEP=","
 # Arquivo temporário que será utilizado para atualizar o
@@ -56,66 +60,59 @@ CINZA="\033[0m"
 # ------------------------------------------------------- #
 # ------------------------  Funções  -------------------- #
 
-MostraUsuarioNaTela () {
-    local id="$(echo $1 | cut -d $SEP -f 1)"
-    local nome="$(echo $1 | cut -d $SEP -f 2)"
-    local pokemon="$(echo $1 | cut -d $SEP -f 3)"
-
-    echo -e "${VERDE}ID: ${VERMELHO}$id${CINZA}"
-    echo "Nome: $nome"
-    echo "E-mail: $email"
-}
-
 # ListaPokemonsDoMestre nome_mestre
 ListaPokemonsDoMestre () {
+
+    local banco_dados_filtrado="$(cat $PATH_BANCO_DADOS | grep $1)"
+    echo -e "${VERDE}Mestre: ${VERMELHO}$1${CINZA}"
+
     while read -r linha
     do
-        [ "$(echo $linha | cut -c1)" = "#" ] && continue
+        [ "$(cut -c1 <<< $linha)" = "#" ] && continue
         [ ! "$linha" ] && continue
 
-        MostraPokemonsDoMestre "$linha"
-
-    done < "$PATH_BANCO_DADOS"
+        local numero_pokedex="$(cut -d , -f 3 <<< $linha)"
+        cat Tarefas/Files/pokedex.txt | awk -F , -v search="$numero_pokedex" '$1 ~ search'
+    done <<< "$banco_dados_filtrado"
 }
 
-# ValidaExistenciaUsuario () {
-#     grep -i -q "$1$SEP" "$PATH_BANCO_DADOS"
-# }
+# ValidaExistenciaPokemonPorNumero numero_pokedex
+ValidaExistenciaPokemonPorNumero () {
+    local re_pokedex_numero="^(0[0-9][0-9]|1[0-4][0-9]|15[0-1])$"
 
-# InsereUsuario () {
-#     local nome="$(echo $1 | cut -d $SEP -f 2)"
+    if [[ "$1" =~ $re_pokedex_numero ]] && [[ "$1" != "000" ]]
+    then
+        return 0
+    else
+        echo "ERRO: Numero na pokedex inválido."
+        return 1
+    fi
+}
 
-#     if ValidaExistenciaUsuario "$nome"; then
-#         echo "ERRO: Usuário já existente!"
-#     else
-#         # > Substitui o arquivo inteiro
-#         # >> Concatena no final do arquivo
-#         echo "$*" >> "$PATH_BANCO_DADOS"
-#         OrdenaBanco
-#         echo "Usuário cadastrado com sucesso!"
-#     fi
-# }
+PreencheMaiorId () {
+    MAIOR_ID=$(sort -nrk1,1 $PATH_BANCO_DADOS | head -1 | cut -d , -f 1)
+}
 
-# ApagaUsuario () {
-#     ValidaExistenciaUsuario "$1" || return
+# PokemonCapturado nome_mestre numero_pokedex
+PokemonCapturado () {
+    if ValidaExistenciaPokemonPorNumero $2; then
+        PreencheMaiorId
+        local next_id=$(($MAIOR_ID+1))
+        echo "$next_id,$1,$2" >> "$PATH_BANCO_DADOS"
+        echo "Pokemon capturado com sucesso."
+    fi
+} 
+
+ValidaExistenciaUsuarioPokemon () {
+    grep -i -q "$SEP$1$SEP$2" "$PATH_BANCO_DADOS"
+}
+
+# RemoverPokemonDoMestre nome_mestre numero_pokedex
+RemoverPokemonDoMestre () {
+    ValidaExistenciaUsuarioPokemon "$1" "$2" || return
     
-#     grep -i -v "$1$SEP" "$PATH_BANCO_DADOS" > "$TEMP"
-#     mv "$TEMP" "$PATH_BANCO_DADOS"
+    grep -i -v "$SEP$1$SEP$2" "$PATH_BANCO_DADOS" > "$TEMP"
+    mv "$TEMP" "$PATH_BANCO_DADOS"
 
-#     echo "Usuário removido com sucesso!"
-
-#     OrdenaBanco
-# }
-
-# OrdenaBanco () {
-#     sort "$PATH_BANCO_DADOS" > "$TEMP"
-#     mv "$TEMP" "$PATH_BANCO_DADOS"
-# }
-
-# ------------------------------------------------------- #
-# -----------------------  Execução  -------------------- #
-
-# ListaUsuarios
-
-# ------------------------------------------------------- #
-# ------------------------------------------------------- #
+    echo "Pokemon removido com sucesso!"
+}
